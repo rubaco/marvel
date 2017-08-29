@@ -1,0 +1,14 @@
+#container{
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  font-size: 50px;
+
+}
+
+#events_title{
+
+  font-size: 25px;
+  font-style: italic;
+
+}
