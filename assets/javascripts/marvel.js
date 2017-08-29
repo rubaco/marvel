@@ -25,8 +25,8 @@
                        console.log(character_extension);
                       $("#characters").append(characters3);
                        $('#hero_img').attr('src',image_request);
-                    //  character_id = data.data.results[0].id;
-                      character_id = 1009351;
+                      character_id = data.data.results[0].id;
+                    //  character_id = 1009351;
                       console.log(character_id);
 
                     })
