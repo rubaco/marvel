@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+    <app-search #searchAttributes (sendCharacter)="getPartialSearch($event)"></app-search>
+    <br>
+
+    <div>
+   <p *ngFor="let x of this.displayArray">{{x.name}}<br><img class="thumbnail" height="200" width="200" src="{{x.thumbnail.path}}.{{x.thumbnail.extension}}"></p>
+      
+    </div> 
+
+    <!--
+    <div id="loadCharacters">
+    <p *ngFor="let character of characterInfos">{{character.name}}<br><img src="{{character.thumbnail.path}}.{{character.thumbnail.extension}}"></p>
+    </div>
+
+  -->
+  
+      <app-display #DisplayAttributes ></app-display>
+ 
+  </h1>
+
+</div>
+
+
+
+
